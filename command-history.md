@@ -35,3 +35,12 @@ Next steps:
 To close the dev server, hit Ctrl-C
 
 Stuck? Visit us at https://svelte.dev/chat
+
+=======================================
+>npm create svelte@latest svelte-project
+>code .
+>cd svelte-project
+>npm install
+>git add --all
+>git commit -m "Initial commit"
+>git push
