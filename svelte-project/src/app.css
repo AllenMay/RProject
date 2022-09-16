@@ -1,0 +1,234 @@
+:root {
+	--handicap-spacer-color: #25282C;
+	--handicap-spacer-image: url('https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/9da6cfa9-b275-4021-9b43-8091b430fc44.png');
+	--notification-background-color: #111111;
+	--sub-menu-item-border-and-text-color: #25282C;
+	--template-font-color: #25282C;
+	--location-banner-image-height: 350px;
+	--font-size: 18px;
+  }
+
+  section {
+	  display: grid;
+    grid-template-columns: [c1] 25% [c2] auto [c3] auto [c4] 25%;
+    grid-template-rows: auto auto auto auto;	
+    column-gap: 10px;
+    row-gap: 15px;
+  }
+
+  .b1 img {
+      height: 30px;
+    }
+  .b1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  
+  .b2 {
+    grid-column-start: 2;
+    grid-column-end: span c4;
+  }
+  .b2 img {
+    max-width: 400px;
+  }
+  .b3 {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+  .b4 {
+    grid-column-start: 2;    
+    grid-row-start: 2;
+  }
+  .b4 img { 
+    max-width: 150px;
+  }
+  .b5 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+
+  .b6 {
+    grid-column-start: 2;
+    grid-column-end: span c4;
+    grid-row-start: 3;
+    
+  } 
+
+  section div {
+    border: solid thin black;
+  }
+
+
+  #overlays .overlay {
+	  height: auto;
+  }
+  .socialBlock h3 {
+	color: white;
+  }
+  #socialMediaContainer h1 {
+	color: white;
+  }
+  #searchResultsContainer h1, #searchResultsContainer h2 {
+	color: white;
+  }
+  .globalHome .home-image {
+	background-image: url('https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/d2ffda4f-40ce-47d2-9ee1-8f4273fd71ef.jpg');
+  }
+  .globalHome .bottomIcon {
+	color: #25282C;
+  }
+  
+  .globalHome .menu-bottomIcon {
+	color: #ffffff;
+	font-size: 48px;
+  }
+  
+  .globalHome .homeMenuImage {
+	background-image: url('https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/65dbace8-0d4d-4a0c-83b0-e9bd07b70f69.jpg');
+  }
+  .globalHome .mainContainer {
+	background-color: #B4B4B4;
+  }
+  .globalHome .homeContainer {
+	background-color: #25282C;
+  }
+  header.info-bar {
+	background-color: #111111;
+	color: #FFFFFF;
+  }
+  header.info-bar svg path {
+	fill: #FFFFFF;
+  }
+  .globalHome .menuButtonHome {
+	background-color: #494949;
+  }
+  .globalHome .homeMenuButtons .bottomIcon {
+	color: #494949;
+  }
+  .globalHome .insideButton {
+	color: #25282C;
+  }
+  .globalHome .menuButtonHomeSubText {
+	color: #25282C;
+  }
+  .globalHome .insideButton .icon {
+	color: #FFFFFF;
+  }
+  .globalHome #menu {
+	background: linear-gradient(to bottom, #0E1F44 0%,#325DAA 50%,#0E1F44 100%);
+  }
+  .globalHome .menuButton {
+	color: #FFFFFF;
+  }
+  .globalHome .activeMenuItem {
+	background-color: #FFFFFF;
+	color: #25282C;
+  }
+  .subMenu .subMenuButton {
+	background-color: #0E1F44;
+  }
+  .subMenuButton {
+	color: #25282C;
+	border-bottom: 3px solid #25282C;
+  }
+  .main-view-overlay {
+	border-left: 5px solid #25282C;
+	border-right: 5px solid #25282C;
+	border-bottom: 5px solid #25282C;
+  }
+  .header-bar {
+	background-color: #FFFFFF;
+	border: 5px solid #25282C;
+	color: #25282C;
+  }
+  .scrollMore {
+	background-color: #25282C;
+  }
+  .eventHolder {
+	border: 2px solid #25282C;
+  }
+  .date-text {
+	color: #25282C
+  }
+  .location-listing-container {
+	border: 1px solid #25282C
+  }
+  
+  .location-listing-container .location-text {
+	font-size: 24px;
+  }
+  .search-result-item.row {
+	border: 1px solid #25282C
+  }
+  
+  .empty-listing {
+	color: #25282C;
+  }
+  .empty-listing-short {
+	color: #25282C;
+  }
+  #app .keyboard-overlay #keyboard-container {
+	background-color: #FFFFFF;
+	border: 4px solid #25282C;
+	border-radius: 0px;
+  }
+  #app .keyboard-overlay .vue-keyboard-key {
+	border: 4px solid #25282C;
+	font-size: 40px;
+	padding: 8px;
+	border-radius: 0px;
+	color: #25282C;
+	background-color: #FFFFFF;
+  }
+  #app .keyboard-overlay .vue-keyboard-key:active {
+	color: #FFFFFF;
+	background-color: #25282C;
+  }
+  
+  #app .keyboard-overlay button[data-text=\"enter\"] {
+	background: #FFFFFF;
+	color: #25282C;
+	border: 4px solid #25282C;
+	width: 250px;
+  }
+  #app .keyboard-overlay button[data-text=\"enter\"]:active {
+	background: #25282C;
+	color: #FFFFFF;
+  }
+  #app .keyboard-overlay #textInput {
+	border-radius: 0px;
+	background-color: #FFFFFF;
+	border: 4px solid #25282C;
+  }
+  #app .mappedin-wrapper .map-tooltip-container,
+  #app .mappedin-floor-changer .active,
+  #app .mappedin-floor-changer .button.active {
+	background-color: #6C6C6C
+  }
+  #app .mappedin-floor-changer .floorSelector,
+  #app .mappedin-floor-changer .button,
+  #app .mappedin-floor-changer .button.resetButton {
+	background-color: #25282C
+  }
+  #app .mappedin-floor-changer .active {
+	background-color: #1077DD
+  }
+  #app .detailsHolder #viewOnMapButton,
+  #app .subMenu .amenity-type-view-on-map-button,
+  #app .menubar .amenity-type-view-on-map-button {
+	background-color: #25282C;
+	color: #FFFFFF;
+  }
+  
+  
+  html {
+	  font-family: 'MDDCustomFont', 'Neutraface 2 Text Demi', 'Neutraface 2 Text', Arial, sans-serif; 
+  }
+  .globalHome {
+	  --font-family: 'MDDCustomFont', 'Neutraface 2 Text Demi', 'Neutraface 2 Text', Arial, sans-serif; 
+  }
+  :root {
+	--font-family: 'MDDCustomFont', 'Neutraface 2 Text Demi', 'Neutraface 2 Text', Arial, sans-serif;
+  }
